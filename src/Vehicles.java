@@ -11,7 +11,7 @@ public class Vehicles implements Serviced {
     }
     @Override
     public void check() {
-        System.out.println("Обслуживаем"+ modelName);
+        System.out.println("Обслуживаем "+ modelName);
         for (int i = 0; i < wheelsCount; i++) {
             updateTyre();
         }
